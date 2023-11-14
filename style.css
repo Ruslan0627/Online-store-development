@@ -142,14 +142,24 @@ padding-bottom: 33px;
 
 .down-arrow1 {
     text-align: center;   
-    margin-top: 91px; 
+    margin-top: 91px;
+    padding-bottom: 76px;
 }
 
 .Beginning-img {
     margin-top: -120px;
     margin-left: -216px;   
 }
-
+.title_information-block {
+    color: #5E4CB3;
+    font-size: 36px;
+    font-weight: 800;  
+}
+.title_information-block span {
+    color:  #9D61FF;
+    font-size: 36px;
+    font-weight: 800;
+}
     
 
 
