@@ -216,7 +216,31 @@ padding-left: 15px;
     margin-top: 10px;
     margin-bottom: 8px;
 }
+
+.see_the-price-btn-wrapper {
+    text-align: center;
+    margin-top: 51px;
+
+}
+
+.see_the-price-btn {
+    color: #FFF;
+    background:  #9D61FF;
+   
+    border-radius: 5px;
+    border: none;
+   
+    text-align: center;
+   
+    font-size: 12px;
+    font-weight: 800;
+
+    padding: 23px 78px;
+}
     
+
+
+  
 
 
        
