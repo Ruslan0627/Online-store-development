@@ -7,6 +7,15 @@
 
 :root {
     --primary-color: #9D61FF;
+    --secondly-color: #5E4CB3;
+}
+
+ul {
+ list-style-type: none;   
+}
+
+a {
+  text-decoration: none;  
 }
 
 #header {
@@ -614,5 +623,127 @@ margin: 0 78px 119px 140px ;
 .business-research__img {
  margin-top: -21px;   
 }
+
+.stages {
+    margin-right: 140px;
+    margin-left: 139px;
+}
+
+.stages__title {
+    color: var(--secondly-color);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.stages-info-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    margin-top: 55px;
+
+    gap: 70px;
+}
+
+.stages-nav__list {
+ margin-left:78px;
+ 
+ position: relative;
+}
+
+.stages-nav__list::before {
+content: "";
+position: absolute;
+
+height: 100%;
+width: 5px;
+background-color: var(--secondly-color);
+
+left: -40px;
+}
+
+.stages-list__item {
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+}
+    
+.stages-list__item::before {
+    content: "";
+    position: absolute;
+    
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    
+    left: -49px;
+
+    background-color: var(--secondly-color);
+}
+
+.stages-list__item:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.stages-steps {
+    grid-column: 2/-1;
+
+    margin-top: -21px;
+}
+
+.stages-about-step-header {
+    display: flex;
+    align-items: center;
+    gap: 71px;
+}
+
+.stages-about-steps__number {
+    width: 53px;
+    height: 53px;
+
+    border-radius: 50px;
+
+    background-color: #446FB3;
+
+    color: #FFF;
+    font-weight: 700;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stages-about-steps__title {
+    color: var(--secondly-color);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.stages-about-steps__divider {
+    height: 1px;
+    background-color: #EBEBEB;
+
+    margin-top: 42px;
+    margin-bottom: 26px;
+}
+
+.stages-about-step {
+    border-radius: 10px;
+    background: #FFF;
+
+    box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15);
+    padding: 23px 25px 90px 43px;
+}
+
+.stages-about-steps__desc {
+    color: var(--secondly-color);
+    font-size: 18px;
+
+    font-weight: 400;
+}
+
+
+   
 
 
