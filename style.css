@@ -627,6 +627,7 @@ margin: 0 78px 119px 140px ;
 .stages {
     margin-right: 140px;
     margin-left: 139px;
+    margin-bottom: 150px;
 }
 
 .stages__title {
@@ -742,8 +743,4 @@ left: -40px;
 
     font-weight: 400;
 }
-
-
-   
-
 
