@@ -843,17 +843,77 @@ left: -40px;
     margin-top: 25px;
 }
 
-.ibrain-company__form__agree-text{
-color:var(--secondly-color);
-font-size: small;
+.ibrain-company__form__agree-text {
+    color: var(--secondly-color);
+    font-size: small;
 }
 
 .ibrain-company_form__agree-text--color-white {
-color: #FFF;
-font-size: small;
+    color: #FFF;
+    font-size: small;
 }
 
 .ibrain-company-form__agree-wrapper {
     display: inline-block;
 }
+
+.end-of-ibrain {
+    background-color: var(--secondly-color);
+    padding: 75px 140px 58px 140px;
+}
+
+.where-to-write {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.where-to-write-link {
+    color: var(--primary-color);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.where-to-write-wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: end;
+
+    padding-bottom: 33px;
+    border-bottom: #619FFF 2px solid;
+
+    margin-bottom: 44px;
+}
+
+.where-to-write-link-wrapper {
+    margin-top: 30px;
+}
+
+.request-form__btn {
+    border-radius: 5px;
+    background: var(--primary-color);
+
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+
+    border: none;
+
+    padding: 22px 108px;
+}
+
+.address-and-messengers {
+  display: flex;  
+  justify-content: space-between;
+}
+
+.address {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
 
